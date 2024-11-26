@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+/*
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, hình vuông,...)
+*/
+html{
+    font-family: "Lato", sans-serif;
+    /* background-color: grey; */
+}
+
+#main{
+
+}
+
+#header{
+    height: 46.5px;
+    background-color: black;
+    position: relative;
+}
+#nav {
+
+}
+
+#nav, .subnav{
+    list-style-type: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li {
+    text-decoration: none;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height:46.5px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display:block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+
+#nav .subnav li a{
+    color: black;
+    padding: 0 16px;
+    line-height: 38px;
+
+}
+
+#slider{
+    margin-top: 0px;
+    /*50% chiều ngang của chính nó*/
+    padding-top: 50%;
+    background: url(https://www.w3schools.com/w3images/la.jpg) top center / cover no-repeat;
+
+
+}
+
+#slider .text-content{
+    position: relative;
+    bottom: 47px;
+    color: white;
+    padding: 32px 16px;
+    left: 50%;
+}
+
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+#content{
+
+}
+
+#footer{
+
+}
+
+
